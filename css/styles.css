@@ -16,13 +16,15 @@ body {
 }
 
 .main h1 {
-  font-size: 1em;
+  font-size: 2em;
+  color: green;
 }
 
 .main h2 a {
   font-size: 24px;
   color: green;
-  font-size: 1em; 
+  font-size: 1em;
+  color: green;
 }
 
 .main p {
@@ -37,6 +39,7 @@ body {
 .project {
   border: green solid 2px;
   border-radius: 5px;
+  height: 200px;
 }
 
 .page-header, .page-footer {
