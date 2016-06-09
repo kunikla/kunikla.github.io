@@ -27,6 +27,10 @@ body {
   color: green;
 }
 
+.main a {
+  color: green;
+}
+
 .main p {
   font-size: 1em;
 }
