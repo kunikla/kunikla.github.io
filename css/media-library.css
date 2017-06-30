@@ -1,0 +1,10 @@
+.memory-images, .kunikla-images{
+    text-align: center;
+    margin: 50px auto;
+}
+.memory-images a, .kunikla-images a{
+    margin: 0px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}

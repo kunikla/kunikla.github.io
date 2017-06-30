@@ -1,4 +1,12 @@
-# github
+# https://github.com/kunikla/kunikla.github.io
+# https://kunikla.github.io
+# 
 # Created by .ignore support plugin (hsz.mobi)
-.directory
+
+# directories
 /.idea
+
+# files
+**/.directory
+.kate-swp
+
