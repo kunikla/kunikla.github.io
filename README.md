@@ -7,6 +7,9 @@ This repository contains the home page for kunikla.github.io,
 and the pages that describe each project/repository
 found in this account.
 
+Version 1.2.2 - 06/29/17
+ * fixed bad link in header
+
 Version 1.2.1 - 06/29/17  
   * added media-library.html
   * added link to media-library.html and blurb in index.html
