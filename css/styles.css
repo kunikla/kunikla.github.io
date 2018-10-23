@@ -72,7 +72,19 @@ body {
 .page-footer {
   padding: 20px;
   background-color: green;
-  color: black;
+  color: white;
   margin-bottom: 20px;
   border-radius: 5px;
+}
+
+.page-footer a {
+  color: #add8e6;
+}
+
+.page-footer div.credits, .page-footer div.copyright {
+  text-align:center;
+}
+
+.hidden {
+  display: none;
 }

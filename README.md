@@ -7,6 +7,17 @@ This repository contains the home page for kunikla.github.io,
 and the pages that describe each project/repository
 found in this account.
 
+Version 1.3 - 10/22/18
+ * Changed color of text and links in footer
+ * Changed quotes in footer
+ * Changed copyright date in footer
+ * Removed inline styles from footer
+ * Hid placeholder text on home page
+ * Edited project descriptions
+ * Moved pages describing projects into /projects folder
+ * Added project page for StreamOnly Omeka Plugin
+ * Added project page for BigPicture Omeka Theme (Custom)
+
 Version 1.2.2 - 06/29/17
  * fixed bad link in header
 
