@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>StreamOnly Omeka Plugin</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Henny+Penny' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://kunikla.github.io/media-library/images/kunikla/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kunikla.github.io/media-library/images/kunikla/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="https://kunikla.github.io/media-library/images/kunikla/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://kunikla.github.io/media-library/images/kunikla/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://kunikla.github.io/media-library/images/kunikla/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://kunikla.github.io/media-library/images/kunikla/favicons/manifest.json">
+    <link rel="mask-icon" href="https://kunikla.github.io/media-library/images/kunikla/favicons/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="https://kunikla.github.io/media-library/images/kunikla/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="https://kunikla.github.io/media-library/images/kunikla/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="https://kunikla.github.io/media-library/images/kunikla/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+<div class="container page-header">
+    <div class="row">
+        <div class="col-sm-4">
+            <h1>Kunikla</h1>
+            <img src="https://kunikla.github.io/media-library/images/kunikla/DancingRabbit2r.svg" />
+        </div>
+        <div class="col-sm-8"></div>
+    </div> <!-- row -->
+</div> <!-- container page-header -->
+
+<div class="container main">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="" target="_blank"><h1>Big Picture Omeka Classic Theme, customized</h1></a>
+        </div>
+    </div> <!-- row -->
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Genesis</h3>
+            <p>
+                This project is being developed under the auspices of
+                <a href="http://www.codeforbtv.org/" target="_blank">Code for BTV</a>, a brigade of
+                <a href="https://www.codeforamerica.org/" target="_blank">Code for America</a>,
+                for the benefit of the
+                <a href="https://omeka.bigheavyworld.com/" target="_blank">Vermont Music Archive</a>,
+                a project of the non-profit
+                <a href="https://bigheavyworld.com/" target="_blank">Big Heavy World</a>.
+            </p>
+            <h3>Purpose</h3>
+            <p>
+                The creators of the Vermont Music Archive website have selected the Omeka
+                CMS for their platform, and the Big Picture theme for the layouts.
+                Each album will be stored as an Item, and when that Item is selected,
+                a high-resolution image of the album cover is displayed prominently on the left,
+                and a list of songs on the right, along with information about the album.
+            </p>
+            <p>
+                Due to browser and server limitations, websites that use the StreamOnly plugin
+                can only display a limited number of
+                HTML5 audio elements for protected audio files on each page.
+                The latest version of the Big Picture theme, currently version 1.2,
+                was modified so that when a single Item/album is displayed,
+                only one HTML5 audio element is displayed on that page.
+                If more than one audio file is associated with that Item/album,
+                a form with a Select field is displayed,
+                to allow the site visitor to select which video is available to be streamed.
+            </p>
+             <p>
+                Skills demonstrated:
+            <ul>
+                <li>Customizing a theme for a CMS (Omeka)</li>
+                <li>PHP</li>
+                <li>HTML</li>
+            </ul>
+            </p>
+            <h3>Links</h3>
+            <ul>
+                <li><a href="http://www.codeforbtv.org/projects/omeka-player" target="_blank">Code for BTV project description</a></li>
+                <li><a href="https://github.com/kunikla/bigpicture-vma" target="_blank">Code for BTV Github repository</a></li>
+            </ul>
+
+            <h3>Status as of October 23, 2018</h3>
+            <p>
+            <ul>
+                <li>Proposing to move form submit button above the HTML5 audio element, otherwise complete.</li>
+            </ul>
+            </p>
+        </div>
+    </div> <!-- row -->
+
+    <div class="row">
+    </div> <!-- row -->
+
+</div> <!-- container main -->
+
+<div class="container page-footer">
+    <div class="row">
+        <div class="col-sm-4">
+            <p>"The craft of programming begins with empathy, not formatting or languages or tools or algorithms or data structures." - Kent Beck</p>
+        </div>
+        <div class="col-sm-4">
+            <p>Programming isn’t about what you know; it’s about what you can figure out.” - Chris Pine</p>
+        </div>
+        <div class="col-sm-4">
+            <p>You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity.” - John Romero</p>
+        </div>
+    </div> <!-- row -->
+    <div class="row credits">Quotes provided by <a href="https://twitter.com/CodeWisdom" target="_blank">@CodeWisdom</a></div>
+    <div class="row copyright"><br/>&copy;2018 Christina Hamilton</div>
+</div> <!-- container page-footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
+
