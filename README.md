@@ -7,6 +7,10 @@ This repository contains the home page for kunikla.github.io,
 and the pages that describe each project/repository
 found in this account.
 
+Version 1.4 - 12/20/18
+ * Added LinkedIn widget in header on Home page
+ * Added VAHC website as a project
+
 Version 1.3 - 10/22/18
  * Changed color of text and links in footer
  * Changed quotes in footer
