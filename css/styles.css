@@ -17,16 +17,16 @@ body {
 
 .main h1 {
   font-size: 2em;
-  color: green;
+  color: forestgreen;
 }
 
 .main h2 a {
   font-size: 1.5em;
-  color: green;
+  color: forestgreen;
 }
 
 .main a {
-  color: green;
+  color: forestgreen;
 }
 
 .main p {
@@ -39,7 +39,7 @@ body {
 }
 
 .project {
-  border: green solid 2px;
+  border: forestgreen solid 2px;
   border-radius: 5px;
   height: 200px;
   display: table-cell;
@@ -61,7 +61,7 @@ body {
 }
 
 .page-header {
-  border-bottom: 3px solid green;
+  border-bottom: 3px solid forestgreen;
 }
 
 .page-header p, .page-footer p {
@@ -71,14 +71,14 @@ body {
 
 .page-footer {
   padding: 20px;
-  background-color: green;
+  background-color: forestgreen;
   color: white;
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
 .page-footer a {
-  color: #add8e6;
+  color: lawngreen;
 }
 
 .page-footer div.credits, .page-footer div.copyright {
