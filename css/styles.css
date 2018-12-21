@@ -39,11 +39,9 @@ body {
 }
 
 .project {
-  border: forestgreen solid 2px;
-  border-radius: 5px;
-  height: 200px;
-  display: table-cell;
-  float: none;
+    border: forestgreen solid 2px;
+    border-radius: 5px;
+    height: 400px;
 }
 
 .page-header, .page-footer {
@@ -58,6 +56,11 @@ body {
 .page-header h1 {
   font-size: 36px;
   text-align: center;
+}
+
+.page-header .LI-centered {
+    width: 269px;
+    margin: auto;
 }
 
 .page-header {
