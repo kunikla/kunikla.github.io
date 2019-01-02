@@ -7,6 +7,11 @@ This repository contains the home page for kunikla.github.io,
 and the pages that describe each project/repository
 found in this account.
 
+Version 1.4.1 - 01/02/19
+ * Changed copyright date to 2019
+ * Added link to Memory game in project page title
+ * Added link to archive of old vtaffordablehousing.org website in Wayback Machine
+
 Version 1.4 - 12/20/18
  * Added LinkedIn widget in header on Home page
  * Added VAHC website as a project
