@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Placeholder page template</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Henny+Penny' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kunikla.github.io/media-library/images/kunikla/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://kunikla.github.io/media-library/images/kunikla/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kunikla.github.io/media-library/images/kunikla/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="https://kunikla.github.io/media-library/images/kunikla/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://kunikla.github.io/media-library/images/kunikla/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://kunikla.github.io/media-library/images/kunikla/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://kunikla.github.io/media-library/images/kunikla/favicons/manifest.json">
+    <link rel="mask-icon" href="https://kunikla.github.io/media-library/images/kunikla/favicons/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="https://kunikla.github.io/media-library/images/kunikla/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="https://kunikla.github.io/media-library/images/kunikla/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="https://kunikla.github.io/media-library/images/kunikla/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+
+<div class="container page-header">
+    <div class="row">
+        <div class="col-sm-4">
+            <h1>Kunikla</h1>
+            <img src="https://kunikla.github.io/media-library/images/kunikla/DancingRabbit2r.svg" />
+        </div>
+        <div class="col-sm-8"></div>
+    </div> <!-- row -->
+</div> <!-- container page-header -->
+
+<div class="container main">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="https://github.com/kunikla/placeholder-page" target="_blank"><h1>Placeholder page template</h1></a>
+        </div>
+    </div> <!-- row -->
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Genesis</h3>
+            <p>
+                Two clients with WordPress websites needed to use Placeholder pages
+                so that Breadcrumbs, which rely on the Page Hierarchy,
+                would match the Menu structure.
+            </p>
+            <p>
+                For the first client, I set up Menu Items with a custom URL of "#".
+                In that case, clicking on the Menu Item causes the user to stay on the current page.
+            </p>
+            <p>
+                For the second client, I found a snippet of code that could be put in a template's "page-templates"
+                directory that would direct the user to the first child in the Page Hierarchy.
+                However, it did not take into account that the page might have no children in the Page Hierarchy,
+                even though there were child Menu Items in the Menu Hierarchy.
+                This can happen when child Menu Items are Category Pages or Custom Post Types.
+            </p>
+            <h3>Development</h3>
+            <p>
+                The first round of development was to create the code for a Placeholder page template
+                that finds and redirects to the first child Menu Item.
+                (Note that this works for multi-level redirection.)
+                This code has been installed on the second client's site, and works quite well.
+                The code has been placed in a Github repository for safekeeping.
+            </p>
+            <p>
+                The second round of development will be to create a WordPress plugin installation procedure.
+                The plugin will have an administrative interface that allows the site administrator
+                to configure the page template on a per-theme basis.
+                The interface will obscure those themes which do not have a "page-template" directory
+                and provide options for the site administrator in the event of a name conflict.
+            </p>
+            <h3>Links</h3>
+            <ul>
+                <li>
+                    <a href="https://askwpgirl.com/redirect-parent-page-first-child-page-wordpress/" target="_blank">
+                    The blog post that gave me the idea
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/kunikla/placeholder-page">
+                        The Github repository of my Placeholder page template
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div> <!-- row -->
+
+    <div class="row">
+    </div> <!-- row -->
+
+</div> <!-- container main -->
+
+<div class="container page-footer">
+    <div class="row">
+        <div class="col-sm-4">
+            <p>"The craft of programming begins with empathy, not formatting or languages or tools or algorithms or data structures." - Kent Beck</p>
+        </div>
+        <div class="col-sm-4">
+            <p>Programming isn’t about what you know; it’s about what you can figure out.” - Chris Pine</p>
+        </div>
+        <div class="col-sm-4">
+            <p>You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity.” - John Romero</p>
+        </div>
+    </div> <!-- row -->
+    <div class="row credits">Quotes provided by <a href="https://twitter.com/CodeWisdom" target="_blank">@CodeWisdom</a></div>
+    <div class="row copyright"><br/>&copy;2019 Christina Hamilton</div>
+</div> <!-- container page-footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+</html>

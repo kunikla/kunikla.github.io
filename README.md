@@ -7,6 +7,11 @@ This repository contains the home page for kunikla.github.io,
 and the pages that describe each project/repository
 found in this account.
 
+Version 1.5 - 2/13/19
+ * Added page for EAN website
+ * Added page for Placeholder page
+ * NOTE: links not yet added to Home page
+
 Version 1.4.1 - 01/02/19
  * Changed copyright date to 2019
  * Added link to Memory game in project page title
